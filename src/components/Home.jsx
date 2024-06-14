@@ -15,8 +15,8 @@ import car1 from "/carousel-2.jpg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 
 
 const mock_data = [
@@ -64,9 +64,9 @@ export function Slides ({user}){
 
 export function Home() {
 
-  useEffect(()=>{
-    Aos.init({once: true});
-  },[])
+  // useEffect(()=>{
+  //   Aos.init({once: true});
+  // },[])
 
 
   const sliderRef = useRef(null);

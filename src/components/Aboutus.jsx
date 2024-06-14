@@ -4,8 +4,8 @@ import { Banner } from "./Header";
 import Agents from "./Agents";
 import Footer from "./Footer";
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 
 
 
@@ -28,9 +28,9 @@ export function About (){
 
 export const Aboutus = () => {
   
-  useEffect(()=>{
-    Aos.init({once: true});
-  },[])
+  // useEffect(()=>{
+  //   Aos.init({once: true});
+  // },[])
 
   return (
     <div  className="px-10 sm:px-20 md:px-24 grid grid-cols-1 gap-5 lg:grid-cols-2 lg:gap-10 mb-24">
@@ -89,9 +89,9 @@ export const Aboutus = () => {
   );
 };
 export const Features = () => {
-  useEffect(()=>{
-    Aos.init({once: false});
-  },[])
+  // useEffect(()=>{
+  //   Aos.init({once: false});
+  // },[])
   return (
     <div  className="px-20 grid grid-cols-1 lg:grid-cols-2 gap-10 my-24">
       <div data-aos = 'slide-up' data-aos-offset="1000" data-aos-duration="900" className="flex flex-col gap-3">
